@@ -667,6 +667,13 @@ body {
   cursor: pointer;
   box-shadow: var(--shadow);
 }
+.buttonPortfolio:focus{
+  background-color: var(--color1);
+  color: #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
 .iconContainer:hover .iconColor{
   transition: 0.5s;
   cursor: pointer;
@@ -690,6 +697,11 @@ body {
   background-color: var(--color1);
 }
 .proyect1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 2px 5px rgba(133, 138, 143, 0.7);
+}
+.proyect1:focus {
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0px 2px 5px rgba(133, 138, 143, 0.7);
