@@ -578,8 +578,6 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 100%;
-}
-.buttonNets {
   margin-right: 10px;
 }
 /* ---  P S E U D O  ---  C L A S S E S --- */
@@ -650,6 +648,11 @@ body {
   transition: 0.5s;
   cursor: pointer;
 }
+.buttonNets:focus {
+  background-color: var(--color1);
+  transition: 0.5s;
+  cursor: pointer;
+}
 .buttonNets:hover .iconColor{
   transition: 0.5s;
   cursor: pointer;
@@ -685,6 +688,11 @@ body {
   fill: #fff;
 }
 .iconBrand:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  fill: var(--color1);
+}
+.iconBrand:focus{
   transition: 0.5s;
   cursor: pointer;
   fill: var(--color1);
