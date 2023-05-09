@@ -49,6 +49,8 @@ body {
   opacity: 0;
 }
 .modalForm {
+  padding: 10px;
+  display: flex;
   background-color: #fff;
   width: 528px;
   height: 581px;
@@ -319,6 +321,12 @@ body {
   height: 16px;
   fill: var(--color3);
 }
+.iconClose{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  fill: #000000;
+}
 .iconArticle{
   width: 72px;
   height: 72px;
@@ -510,15 +518,22 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
 }
+.closebutton{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
 
 /* ---  B U T T O N S  ---  B U T T O N S ---  B U T T O N S  --- */
 
 .buttonForm{
-  width: 30px;
-  height: 30px;
   display: flex;
   justify-content: center;
-  border: 0.5px solid #ffffff3f;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #00000010;
   border-radius: 100%;
 }
 .buttonService {
@@ -683,6 +698,9 @@ body {
   transform: translateY(0);
 }
 .buttonForm:hover{
+  cursor: pointer;
+}
+.buttonForm:focus{
   cursor: pointer;
 }
 /* ---  M  E  D  I  A  ---  R  E  S  P  O  N  S  I  B  E --- */
